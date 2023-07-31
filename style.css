@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.8) ,rgba(0,0,0,0.2)),url('hbibi.jpg');
+  background-size: cover;
+  font-family: sans-serif;
+}nav{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.system{
+  font-size: 2em;
+  letter-spacing: 2px;
+  color: aliceblue;
+}
+.menu  a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 15px;
+  padding: 10px   20px;
+}
+.menu  a:hover{
+  
+  text-decoration: underline;
+
+}
+.register{
+  
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px   20px;
+  }
+
+.btn{
+  background-color: rgb(204, 98, 98);
+  width: 110px;
+  height: 40px;
+  border-radius: 10px;
+ 
+}
+.btn:hover{
+  transform: translateY(8px);
+}
+.mohit{
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  margin-top: 40px;
+  padding-top: 60px;
+ 
+}
+.mohit2{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+    animation: mohit2 .5s ease-in both;
+    visibility: visible;
+    animation-delay: 1.5s;
+}
+@keyframes mohit2 {
+  0% {
+      transform: translate3d(-20%,0,0);
+      opacity: 0;
+  }
+ 
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+  
+}
+.mohit2 p{
+ color: aliceblue;
+ font-size: 1em;
+ 
+}
+.mohit2 h1{
+  color: aliceblue;
+  font-size: 3em;
+ }
+ .doc{
+  width: 50%;
+  height: 80vh;
+  margin: auto;
+  padding-top: 60px;
+ 
+ }
+ .login-box {
+  width: 360px;
+  height: 320px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: transparent;
+  animation: login-box .5s ease-in both;
+  visibility: visible;
+  animation-delay: 1.5s;
+}
+@keyframes login-box {
+  0% {
+      transform: translate3d(29%,0,0);
+      opacity: 0;
+  }
+ 
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+  
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  color: aliceblue;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+  color: black;
+}
+
+.login-box button{
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+ border-radius: 7px;
+}
+.login-box button:hover{
+  transform: translateY(8px);
+}
+p {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+
+}
+.para-2 a {
+  color: #49c1a2;
+}
+
+
